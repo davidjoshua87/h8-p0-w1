@@ -1,0 +1,82 @@
+
+/* Add a image background */
+body {
+  background-image: url("sample-pattern.png"); no-repeat fixed right;
+  margin-top: -20px;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+ #logo {
+   padding-left: 35px;
+ }
+
+/* Add a background color to the top navigation */
+#topnav {
+    background-color: #ffffff;
+    padding: 25px 35px 8px 0;
+}
+
+/* Style the links inside the navigation bar */
+.menu {
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+    float:right;
+    padding: 5px 20px 10px 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #87cefa;
+  text-decoration: none;
+  padding-bottom:  10px;
+}
+
+h5 {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+section {
+  padding-bottom: 100px;
+}
+
+/* Style the title of paragraf */
+.title{
+  text-align: center;
+  font-size: 30px;
+  color: #708090
+  padding:5px 0 5px 0;
+  margin:45px 0 45px 0;
+}
+
+/* Style the paragraf of article*/
+.paragraf {
+  background-color: white;
+  overflow: hidden;
+  margin: auto;
+  text-overflow: clip;
+  width: 60%;
+}
+
+/* Style of border paragraf */
+.paragraf_border {
+  margin:0 20px 0 20px;
+  border-bottom: 2px solid rgba(0, 0, 0, .1);
+  padding-bottom: 10px;
+}
+
+/* Add a background color to the footer */
+.bottom {
+    background-color: black;
+    overflow: hidden;
+}
